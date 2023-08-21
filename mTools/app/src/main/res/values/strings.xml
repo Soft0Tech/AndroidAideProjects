@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">mTools</string>
+    <string name="About">This is toolbox app</string>
+	<string name="splashscreen">A <i>splash screen </i>is useful for a number of reasons;\n\n branding 
+		your business name logo, promoting daily deals - coupon giveaways, or introducing a new product or service.\n\n
+		This splash screen has a 3 second delay; then the user is sent to the first page of the app.  \nYou can code the number of seconds as you want.
+
+	</string>  
+
+</resources>

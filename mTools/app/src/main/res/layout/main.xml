@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center">
+	<Button
+		android:onClick="toggle"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="ToggleActionBar"/>
+
+	<Button
+		android:id="@+id/calculator"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Calculator"/>
+
+	<Button
+		android:id="@+id/toast"
+		android:onClick="showToast"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="showToast"/>
+	<Button
+		android:onClick="dialogShow"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="showdialog"/>
+	
+	<Button
+		android:onClick="addNotification"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Notification"/>
+	<Button
+		android:id="@+id/btnShare"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="share"/>
+<!--
+	<android.support.v4.widget.DrawerLayout
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		
+		<com.google.android.material.bottomnavigation.BottomNavigationView
+			android:id="@+id/bottom_navigatin_view"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="0dp"
+			android:layout_marginEnd="0dp"
+			android:background="?android:attr/windowBackground"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:menu="@layout/main_menu" />
+		
+	</android.support.v4.widget.DrawerLayout>
+	-->
+
+</LinearLayout>
+
