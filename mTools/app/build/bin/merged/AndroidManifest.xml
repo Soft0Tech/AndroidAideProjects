@@ -41,7 +41,11 @@
             android:name="com.mycompany.mTools.MainActivity"
             android:label="@string/app_name" >
         </activity>
-        <activity android:name="com.mycompany.mTools.CalculatorActivity" >
+        <activity
+            android:name="com.mycompany.mTools.CalculatorActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" >
+        </activity>
+        <activity android:name="com.mycompany.mTools.WebViewActivity" >
         </activity>
 
         <receiver

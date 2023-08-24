@@ -41,7 +41,13 @@
 		</activity>
 
 		<activity
+			android:configChanges="keyboardHidden|orientation|screenSize"
 			android:name="CalculatorActivity">
+
+		</activity>
+
+		<activity
+			android:name="WebViewActivity">
 
 		</activity>
 

@@ -60,7 +60,8 @@ public class MainActivity extends Activity
 	  {
 		  case R.id.mainMenuHome:
 		  {
-			  Toast.makeText(this,"Home clicked !",100).show();
+			  Intent inte=new Intent(this,WebViewActivity.class);
+			  startActivity(inte);
 			  return true;
 		  }
 		  case R.id.mainMenuAbout:
